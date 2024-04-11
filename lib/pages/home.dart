@@ -18,10 +18,10 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
-  final List<Widget> _options = const [
-    Text("Home View is Working"),
-    Text("Search View is Working"),
-    Text("Profile View is Working"),
+  final List<Widget> _options = [
+    const Text("Home View is Working"),
+    const Text("Search View is Working"),
+    const Text("Profile View is Working"),
   ];
 
   @override
